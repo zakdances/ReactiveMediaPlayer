@@ -15,12 +15,12 @@ PODS:
   - ReactiveCocoa (HEAD based on 1.8.0):
     - ReactiveCocoa/Core
     - ReactiveCocoa/RACExtensions
-  - ReactiveCocoa/Core (1.8.0):
+  - ReactiveCocoa/Core (HEAD based on 1.8.0):
     - JRSwizzle (~> 1.0)
     - libextobjc/EXTConcreteProtocol (~> 0.2.5)
     - libextobjc/EXTKeyPathCoding (~> 0.2.5)
     - libextobjc/EXTScope (~> 0.2.5)
-  - ReactiveCocoa/RACExtensions (1.8.0):
+  - ReactiveCocoa/RACExtensions (HEAD based on 1.8.0):
     - ReactiveCocoa/Core
   - ReactiveCocoaLayout (HEAD based on 0.3.1):
     - Archimedes

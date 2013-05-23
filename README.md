@@ -3,6 +3,7 @@ ReactiveMediaPlayer
 
 A ReactiveCocoa-powered media player for iOS
 
+![ScreenShot](../Screenshots/screenshot1.png)
 
 Intro
 
