@@ -41,7 +41,7 @@
 
     videoPlayer.layer.masksToBounds = NO;
     videoPlayer.layer.shadowColor = [UIColor blackColor].CGColor;
-    videoPlayer.layer.shadowOpacity = .6;
+    videoPlayer.layer.shadowOpacity = .8;
     videoPlayer.layer.shadowRadius = 6;
     videoPlayer.layer.shadowOffset = CGSizeMake( 0 , -18 );
     videoPlayer.layer.shouldRasterize = YES;
