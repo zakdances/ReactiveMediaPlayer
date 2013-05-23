@@ -1,0 +1,7 @@
+platform :ios, '6.1'
+
+pod 'Archimedes', :head
+pod 'ReactiveCocoa', :head
+pod 'ReactiveCocoaLayout', :head
+pod 'ReactiveMediaPlayer', :path => '../'
+pod 'CocoaPlus', :path => '~/Dropbox/projects/libraries/CocoaPlus'

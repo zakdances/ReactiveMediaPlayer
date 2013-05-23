@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3059C0C9A6E34C7CBCE32D1C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCAC7464F42430F85109CC3 /* libPods.a */; };
+		313300A9174CA2B400F85F05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313300A8174CA2B400F85F05 /* UIKit.framework */; };
+		313300AB174CA2B400F85F05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313300AA174CA2B400F85F05 /* Foundation.framework */; };
+		313300AD174CA2B400F85F05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313300AC174CA2B400F85F05 /* CoreGraphics.framework */; };
+		313300B3174CA2B400F85F05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 313300B1174CA2B400F85F05 /* InfoPlist.strings */; };
+		313300B5174CA2B400F85F05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 313300B4174CA2B400F85F05 /* main.m */; };
+		313300B9174CA2B400F85F05 /* rpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 313300B8174CA2B400F85F05 /* rpAppDelegate.m */; };
+		313300BB174CA2B400F85F05 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 313300BA174CA2B400F85F05 /* Default.png */; };
+		313300BD174CA2B400F85F05 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 313300BC174CA2B400F85F05 /* Default@2x.png */; };
+		313300BF174CA2B400F85F05 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 313300BE174CA2B400F85F05 /* Default-568h@2x.png */; };
+		313300E0174CD15C00F85F05 /* rpMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 313300DF174CD15C00F85F05 /* rpMainViewController.m */; };
+		313300E8174DACFE00F85F05 /* Syndicate DART 6 Chip Infomercial (HD).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 313300E7174DACFE00F85F05 /* Syndicate DART 6 Chip Infomercial (HD).mp4 */; };
+		313300EE174DF47900F85F05 /* dashboardBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 313300ED174DF47900F85F05 /* dashboardBG@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		313300A5174CA2B400F85F05 /* ReactiveMediaPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveMediaPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		313300A8174CA2B400F85F05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		313300AA174CA2B400F85F05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		313300AC174CA2B400F85F05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		313300B0174CA2B400F85F05 /* ReactiveMediaPlayerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReactiveMediaPlayerDemo-Info.plist"; sourceTree = "<group>"; };
+		313300B2174CA2B400F85F05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		313300B4174CA2B400F85F05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		313300B6174CA2B400F85F05 /* ReactiveMediaPlayerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveMediaPlayerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		313300B7174CA2B400F85F05 /* rpAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rpAppDelegate.h; sourceTree = "<group>"; };
+		313300B8174CA2B400F85F05 /* rpAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rpAppDelegate.m; sourceTree = "<group>"; };
+		313300BA174CA2B400F85F05 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		313300BC174CA2B400F85F05 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		313300BE174CA2B400F85F05 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		313300DE174CD15C00F85F05 /* rpMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rpMainViewController.h; path = classes/rpMainViewController.h; sourceTree = "<group>"; };
+		313300DF174CD15C00F85F05 /* rpMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = rpMainViewController.m; path = classes/rpMainViewController.m; sourceTree = "<group>"; };
+		313300E7174DACFE00F85F05 /* Syndicate DART 6 Chip Infomercial (HD).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Syndicate DART 6 Chip Infomercial (HD).mp4"; sourceTree = "<group>"; };
+		313300ED174DF47900F85F05 /* dashboardBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dashboardBG@2x.png"; sourceTree = "<group>"; };
+		6C194DE9E9BD4070B724C22F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		ADCAC7464F42430F85109CC3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		313300A2174CA2B400F85F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313300A9174CA2B400F85F05 /* UIKit.framework in Frameworks */,
+				313300AB174CA2B400F85F05 /* Foundation.framework in Frameworks */,
+				313300AD174CA2B400F85F05 /* CoreGraphics.framework in Frameworks */,
+				3059C0C9A6E34C7CBCE32D1C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3133009C174CA2B400F85F05 = {
+			isa = PBXGroup;
+			children = (
+				313300AE174CA2B400F85F05 /* ReactiveMediaPlayerDemo */,
+				313300A7174CA2B400F85F05 /* Frameworks */,
+				313300A6174CA2B400F85F05 /* Products */,
+				6C194DE9E9BD4070B724C22F /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		313300A6174CA2B400F85F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				313300A5174CA2B400F85F05 /* ReactiveMediaPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		313300A7174CA2B400F85F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				313300A8174CA2B400F85F05 /* UIKit.framework */,
+				313300AA174CA2B400F85F05 /* Foundation.framework */,
+				313300AC174CA2B400F85F05 /* CoreGraphics.framework */,
+				ADCAC7464F42430F85109CC3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		313300AE174CA2B400F85F05 /* ReactiveMediaPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				313300B7174CA2B400F85F05 /* rpAppDelegate.h */,
+				313300B8174CA2B400F85F05 /* rpAppDelegate.m */,
+				313300DE174CD15C00F85F05 /* rpMainViewController.h */,
+				313300DF174CD15C00F85F05 /* rpMainViewController.m */,
+				313300E6174DACFE00F85F05 /* resources */,
+				313300AF174CA2B400F85F05 /* Supporting Files */,
+			);
+			path = ReactiveMediaPlayerDemo;
+			sourceTree = "<group>";
+		};
+		313300AF174CA2B400F85F05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				313300B0174CA2B400F85F05 /* ReactiveMediaPlayerDemo-Info.plist */,
+				313300B1174CA2B400F85F05 /* InfoPlist.strings */,
+				313300B4174CA2B400F85F05 /* main.m */,
+				313300B6174CA2B400F85F05 /* ReactiveMediaPlayerDemo-Prefix.pch */,
+				313300BA174CA2B400F85F05 /* Default.png */,
+				313300BC174CA2B400F85F05 /* Default@2x.png */,
+				313300BE174CA2B400F85F05 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		313300E6174DACFE00F85F05 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				313300ED174DF47900F85F05 /* dashboardBG@2x.png */,
+				313300E7174DACFE00F85F05 /* Syndicate DART 6 Chip Infomercial (HD).mp4 */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		313300A4174CA2B400F85F05 /* ReactiveMediaPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313300C2174CA2B400F85F05 /* Build configuration list for PBXNativeTarget "ReactiveMediaPlayerDemo" */;
+			buildPhases = (
+				DEA9FB93322D47F7BBCFBFAF /* Check Pods Manifest.lock */,
+				313300A1174CA2B400F85F05 /* Sources */,
+				313300A2174CA2B400F85F05 /* Frameworks */,
+				313300A3174CA2B400F85F05 /* Resources */,
+				C40190CAF9FF4BD9AE030D39 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveMediaPlayerDemo;
+			productName = ReactiveMediaPlayerDemo;
+			productReference = 313300A5174CA2B400F85F05 /* ReactiveMediaPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3133009D174CA2B400F85F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = rp;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Zak;
+			};
+			buildConfigurationList = 313300A0174CA2B400F85F05 /* Build configuration list for PBXProject "ReactiveMediaPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3133009C174CA2B400F85F05;
+			productRefGroup = 313300A6174CA2B400F85F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				313300A4174CA2B400F85F05 /* ReactiveMediaPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		313300A3174CA2B400F85F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313300B3174CA2B400F85F05 /* InfoPlist.strings in Resources */,
+				313300BB174CA2B400F85F05 /* Default.png in Resources */,
+				313300BD174CA2B400F85F05 /* Default@2x.png in Resources */,
+				313300BF174CA2B400F85F05 /* Default-568h@2x.png in Resources */,
+				313300E8174DACFE00F85F05 /* Syndicate DART 6 Chip Infomercial (HD).mp4 in Resources */,
+				313300EE174DF47900F85F05 /* dashboardBG@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C40190CAF9FF4BD9AE030D39 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		DEA9FB93322D47F7BBCFBFAF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		313300A1174CA2B400F85F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313300B5174CA2B400F85F05 /* main.m in Sources */,
+				313300B9174CA2B400F85F05 /* rpAppDelegate.m in Sources */,
+				313300E0174CD15C00F85F05 /* rpMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		313300B1174CA2B400F85F05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				313300B2174CA2B400F85F05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		313300C0174CA2B400F85F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		313300C1174CA2B400F85F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		313300C3174CA2B400F85F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C194DE9E9BD4070B724C22F /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactiveMediaPlayerDemo/ReactiveMediaPlayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ReactiveMediaPlayerDemo/ReactiveMediaPlayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		313300C4174CA2B400F85F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C194DE9E9BD4070B724C22F /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactiveMediaPlayerDemo/ReactiveMediaPlayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ReactiveMediaPlayerDemo/ReactiveMediaPlayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		313300A0174CA2B400F85F05 /* Build configuration list for PBXProject "ReactiveMediaPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313300C0174CA2B400F85F05 /* Debug */,
+				313300C1174CA2B400F85F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313300C2174CA2B400F85F05 /* Build configuration list for PBXNativeTarget "ReactiveMediaPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313300C3174CA2B400F85F05 /* Debug */,
+				313300C4174CA2B400F85F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3133009D174CA2B400F85F05 /* Project object */;
+}

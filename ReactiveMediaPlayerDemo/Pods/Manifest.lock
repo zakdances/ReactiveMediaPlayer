@@ -1,0 +1,58 @@
+PODS:
+  - Archimedes (HEAD based on 0.2)
+  - CocoaPlus (0.0.1):
+    - Archimedes
+    - ReactiveCocoa
+    - ReactiveCocoaLayout
+  - JRSwizzle (1.0)
+  - libextobjc/EXTConcreteProtocol (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.2.5)
+  - ReactiveCocoa (HEAD based on 1.8.0):
+    - ReactiveCocoa/Core
+    - ReactiveCocoa/RACExtensions
+  - ReactiveCocoa/Core (1.8.0):
+    - JRSwizzle (~> 1.0)
+    - libextobjc/EXTConcreteProtocol (~> 0.2.5)
+    - libextobjc/EXTKeyPathCoding (~> 0.2.5)
+    - libextobjc/EXTScope (~> 0.2.5)
+  - ReactiveCocoa/RACExtensions (1.8.0):
+    - ReactiveCocoa/Core
+  - ReactiveCocoaLayout (HEAD based on 0.3.1):
+    - Archimedes
+    - ReactiveCocoa
+  - ReactiveMediaPlayer (0.0.1):
+    - Archimedes
+    - ReactiveCocoa
+    - ReactiveCocoaLayout
+    - TLTiltSlider
+  - TLTiltSlider (1.0.1)
+
+DEPENDENCIES:
+  - Archimedes (HEAD)
+  - CocoaPlus (from `~/Dropbox/projects/libraries/CocoaPlus`)
+  - ReactiveCocoa (HEAD)
+  - ReactiveCocoaLayout (HEAD)
+  - ReactiveMediaPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  CocoaPlus:
+    :path: ~/Dropbox/projects/libraries/CocoaPlus
+  ReactiveMediaPlayer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Archimedes: b5cab3c81312b34bb642e59ce47b3ecd5aa2b60f
+  CocoaPlus: 5cb2dbe4bec1cfa913a0ca5f02fa5044087824cd
+  JRSwizzle: 6242ff38485d870fc2636899048ee1ab883ae587
+  libextobjc: 2cbc74caf8bdc74a86fdf24673f773c83424ea98
+  ReactiveCocoa: b2432a2a054d7cf54d860db3977020b943f8edcf
+  ReactiveCocoaLayout: 8a4d22ebadec92f066c52949cbffaa7ec6d580b4
+  ReactiveMediaPlayer: c0cd2dd52c990e31bb825334ab2ad9e6011715c9
+  TLTiltSlider: 5ec5cef9545a75c0c3afe8601c3a0f1bfbaa32da
+
+COCOAPODS: 0.19.1
