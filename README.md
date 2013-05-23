@@ -12,10 +12,13 @@ NOTE: This library is built using ReactiveCocoa and ReactiveCocoaLayout. Many of
 
 Features:
 
-Easy conversions between CMTime, NSTimeInterval, and human readable integers. I offer you signals to pull user friendly hours, minutes, and seconds from current play time and media item durations. No need to mess around with CoreMedia's `CMTime` if you don't want to.
+Easy access to current time and duration.
+
+Conversions between CMTime, NSTimeInterval, and human readable integers. I offer you signals to pull user-friendly hours, minutes, and seconds from the playhead, seekbar, and media items. No need to mess around with CoreMedia's `CMTime` if you don't want to.
 
 RMP makes it easy to size itself to a video clip, even after you've scaled it. It's `RACSignals` give you easy access to a video item's original dimensions, then using included RAC extensions, you can create a stream of new dimensions that honor aspect ratio.
 
 Helpful attributes and modes that describe the state of the player so you can customize it's controls in response to user action. Information such as `playing / paused / buffering`, `unstarted / started`, `tapped`.
+
 
 Contributions and pull requests welcome.

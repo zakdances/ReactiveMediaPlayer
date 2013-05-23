@@ -52,7 +52,7 @@
          @strongify(videoPlayer);
          
          UIBezierPath *shadowPath =
-         [UIBezierPath bezierPathWithOvalInRect:CGRectMake( -10 , CGRectGetHeight(vidAligRect.CGRectValue) + 40 ,
+         [UIBezierPath bezierPathWithOvalInRect:CGRectMake( -10 , CGRectGetHeight(vidAligRect.CGRectValue) + 35 ,
                                                            CGRectGetWidth(vidAligRect.CGRectValue) + 20 , 20 ) ];
          [videoPlayer.layer setShadowPath:shadowPath.CGPath];
          
