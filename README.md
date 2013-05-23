@@ -13,7 +13,7 @@ ReactiveMediaPlayer offers a lightweight, powerful, and aesthetically-pleasing U
 
 ### Features:
 
-Easy access to current time and duration.
+Easy access to **current time** and **duration**.
 
 ```
 CMTime currentPlayheadTime = videoPlay.player.currentTime;
