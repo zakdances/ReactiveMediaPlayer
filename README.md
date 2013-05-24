@@ -16,11 +16,13 @@ ReactiveMediaPlayer offers a lightweight, powerful, and aesthetically-pleasing U
 Easy access to AVPlayer/AVPlayerItem properties **currentTime** and **duration**.
 
 ```
-CMTime currentPlayheadTime = videoPlay.player.currentTime;
+CMTime playheadCurrentTime = videoPlay.player.currentTime;
+NSTimeInterval playheadCurrentTimeInterval = videoPlay.player.currentTimeInterval;
 
 // or
 
-RACSignal *currentPlayheadTimeSignal = videoPlay.player.currentTimeSignal;
+RACSignal *playheadCurrentTimeSignal = videoPlay.player.currentTimeSignal;
+RACSignal *playheadCurrentTimeIntervalSignal = videoPlay.player.currentTimeIntervalSignal;
 ```
 Conversions between CMTime, NSTimeInterval, and human readable integers. I offer you signals to pull user-friendly hours, minutes, and seconds from the playhead, seekbar, and media items. No need to mess around with CoreMedia's `CMTime` if you don't want to.
 
