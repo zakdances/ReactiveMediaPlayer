@@ -35,6 +35,7 @@ RACSignal *durationMinutesSignal = videoPlay.player.durationSignal.readableMinut
 RMP makes it easy to size itself to a video clip, even after you've scaled it. It's `RACSignals` give you easy access to a video item's original dimensions, then using included RAC extensions, you can create a stream of new dimensions that honor aspect ratio.
 
 ```
+// In your view controller...
 RAC(videoPlayer,maxSize) = [RACSignal if:[self.interfaceOrientationSignal map:^id(NSNumber *interfaceOrientation) {
         return @(UIInterfaceOrientationIsPortrait(interfaceOrientation.integerValue));
     }] then:[RACSignal return:[NSValue valueWithCGSize:CGSizeMake(280, 280)]]
