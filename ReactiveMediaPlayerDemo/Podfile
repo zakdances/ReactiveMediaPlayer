@@ -4,4 +4,4 @@ pod 'Archimedes', :head
 pod 'ReactiveCocoa', :head
 pod 'ReactiveCocoaLayout', :head
 pod 'ReactiveMediaPlayer', :path => '../'
-pod 'CocoaPlus', :git => 'https://github.com/zakdances/CocoaPlus.git'
+pod 'CocoaPlus', :path => '~/Dropbox/projects/libraries/CocoaPlus'
