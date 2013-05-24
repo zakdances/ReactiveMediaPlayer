@@ -105,6 +105,7 @@ Pod::Spec.new do |s|
   s.dependency 'Archimedes'
   s.dependency 'ReactiveCocoa'
   s.dependency 'ReactiveCocoaLayout'
+  s.dependency 'CocoaPlus', :git => 'https://github.com/zakdances/CocoaPlus.git'
   s.dependency 'TLTiltSlider'
 
 end
