@@ -27,6 +27,7 @@ PODS:
     - ReactiveCocoa
   - ReactiveMediaPlayer (0.0.1):
     - Archimedes
+    - CocoaPlus
     - ReactiveCocoa
     - ReactiveCocoaLayout
     - TLTiltSlider
@@ -52,7 +53,7 @@ SPEC CHECKSUMS:
   libextobjc: 2cbc74caf8bdc74a86fdf24673f773c83424ea98
   ReactiveCocoa: b2432a2a054d7cf54d860db3977020b943f8edcf
   ReactiveCocoaLayout: 8a4d22ebadec92f066c52949cbffaa7ec6d580b4
-  ReactiveMediaPlayer: c0cd2dd52c990e31bb825334ab2ad9e6011715c9
+  ReactiveMediaPlayer: 824dca33237483042162657ed3a0d296238097fe
   TLTiltSlider: 5ec5cef9545a75c0c3afe8601c3a0f1bfbaa32da
 
-COCOAPODS: 0.19.1
+COCOAPODS: 0.20.1
