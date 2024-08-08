@@ -1,4 +1,4 @@
-ReactiveMediaPlayer
+ReactiveMediaPlayer (project discontinued)
 ===================
 
 A ReactiveCocoa-powered media player for iOS
